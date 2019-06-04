@@ -1,13 +1,3 @@
-// fetch('http://localhost:3000/weather?address=Amsterdam').then((response) => {
-//     response.json().then((data) => {
-//         if (data.error){
-//             console.log("Issue encountered fetching data")
-//         } else{
-//             console.log(`${data.address}: ${data.forecast}`)
-//         }
-//     })
-// })
-
 const weatherForm = document.querySelector('form')
 const search = document.querySelector('input')
 const firstMessage = document.querySelector('#first-message')
